@@ -14,5 +14,11 @@ public class WebsiteController {
 		return "website/index";
 		
 	}
+	@RequestMapping("/about")
+	public String fetchabout()
+	{
+		return "website/about";
+		
+	}
 
 }

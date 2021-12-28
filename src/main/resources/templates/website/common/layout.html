@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" th:lang="en">
+
+
+<!-- Mirrored from demos.elemisthemes.com/morello/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Nov 2021 08:46:11 GMT -->
+<head th:fragment="header-link">
+<style type="text/css">
+
+	
+ 	@media (max-width: 991px) {  
+ 	logo-image { 
+ 	width:80%; 
+	 height: auto;" 
+	   
+ 	    padding: 0; 
+	} 
+ 	@media (min-width: 992px) {  
+	 width: 190%; 
+	    height:90px; 
+	   
+ 	    padding: 0; 
+ 	} 
+
+</style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="style/images/favicon.png">
+<title>Aham Tech Labs</title>
+<link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style/css/plugins.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/css/navigation.css">
+<link rel="stylesheet" type="text/css" href="style/css/style.css">
+<link rel="stylesheet" type="text/css" href="style/css/color/blue.css">
+<link rel="stylesheet" type="text/css" href="style/type/icons.css">
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900,300,200,100' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="full-layout">
+<div class="content-wrapper">
+  <div th:fragment="header"  class="navbar navbar-default default extended centered" role="navigation">
+  
+    <div class="container-fluid">
+    
+      <div class="navbar-header" >
+        <div class="navbar-brand text-center"><a href="#"><img src="/style/images/logo2.png"   style="  width:200pt; height: auto;"  alt="" /></a></div>
+        <!--/.social-wrapper -->
+        
+        <ul  class="info text-right">
+          <li><i class="ion-android-mail"></i><a href="mailto:hello@ahamtechlabs.com" class="email-link">hello@ahamtechlabs.com</a></li>
+          <li><i class="ion-headphone"></i>+91 9112013252</li>
+        </ul>
+        <!-- /.info -->
+        <div class="nav-bars-wrapper">
+          <div class="nav-bars-inner">
+            <div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
+          </div>
+          <!-- /.nav-bars-inner --> 
+        </div>
+        <!-- /.nav-bars-wrapper --> 
+      </div>
+      <!-- /.nav-header --> 
+    </div>
+    <!--/.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="navbar-collapse collapse">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a href="#!">Home <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html">Home Layout I</a></li>
+              <li><a href="index2.html">Home Layout II</a></li>
+              <li><a href="index3.html">Home Layout III</a></li>
+              <li><a href="index4.html">Home Layout IV</a></li>
+              <li><a href="index5.html">Home Layout V</a></li>
+              <li><a href="index6.html">Home Layout VI</a></li>
+              <li><a href="index7.html">Home Layout VII</a></li>
+              <li><a href="index8.html">Box Layout</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Header <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html">Centered Header</a></li>
+              <li><a href="header2.html">Extended Header</a></li>
+              <li><a href="header3.html">Classic Header</a></li>
+              <li><a href="header4.html">Fancy Header</a></li>
+              <li><a href="header5.html">Alternative Header</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Slider <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html">Fullwidth Slider</a></li>
+              <li><a href="slider2.html">Fullscreen Slider</a></li>
+              <li><a href="slider3.html">Boxed Slider</a></li>
+              <li><a href="slider4.html">Video Slider</a></li>
+              <li><a href="slider5.html">Flow Slider</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Portfolio <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="portfolio.html">Detailed 3 Columns</a></li>
+              <li><a href="portfolio2.html">Detailed 4 Columns</a></li>
+              <li><a href="portfolio3.html">Lightbox 3 Columns</a></li>
+              <li><a href="portfolio4.html">Lightbox 4 Columns</a></li>
+              <li><a href="portfolio-post.html">Portfolio Post I</a></li>
+              <li><a href="portfolio-post2.html">Portfolio Post II</a></li>
+              <li><a href="portfolio-post3.html">Portfolio Post III</a></li>
+              <li><a href="portfolio-post4.html">Portfolio Post IV</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Blog <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="blog.html">Grid Blog</a></li>
+              <li><a href="blog2.html">Grid Blog with Sidebar</a></li>
+              <li><a href="blog3.html">List View Blog</a></li>
+              <li><a href="blog4.html">Classic Blog</a></li>
+              <li><a href="blog5.html">Blog with Left Sidebar</a></li>
+              <li><a href="blog-post.html">Blog Post</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Pages <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">About I</a></li>
+              <li><a href="about2.html">About II</a></li>
+              <li><a href="services.html">Services I</a></li>
+              <li><a href="services2.html">Services II</a></li>
+              <li><a href="page-loading.html">Page Loading</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="pricing2.html">Pricing II</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact2.html">Contact II</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Features <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#!">Colors <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+				  <li><a href="#!" class="changecolor" title="morelloblue-color">Blue</a></li>
+				  <li><a href="#!" class="changecolor" title="morellobrown-color">Brown</a></li>
+				  <li><a href="#!" class="changecolor" title="morellogreen-color">Green</a></li>
+				  <li><a href="#!" class="changecolor" title="morellolime-color">Lime</a></li>
+				  <li><a href="#!" class="changecolor" title="morellonavy-color">Navy</a></li>
+				  <li><a href="#!" class="changecolor" title="morelloorange-color">Orange</a></li>
+				  <li><a href="#!" class="changecolor" title="morellopink-color">Pink</a></li>
+				  <li><a href="#!" class="changecolor" title="morellopurple-color">Purple</a></li>
+				  <li><a href="#!" class="changecolor" title="morellored-color">Red</a></li>
+                </ul>
+              </li>
+              <li><a href="#!">Footer <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="footer.html">Footer I</a></li>
+                  <li><a href="footer2.html">Footer II</a></li>
+                  <li><a href="footer3.html">Footer III</a></li>
+                  <li><a href="footer4.html">Footer IV</a></li>
+                </ul>
+              </li>
+              <li><a href="#!">Page Title <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="page-title.html">Page Title I</a></li>
+                  <li><a href="page-title2.html">Page Title II</a></li>
+                  <li><a href="page-title3.html">Page Title III</a></li>
+                </ul>
+              </li>
+              <li><a href="icon-concept.html">Concept Icons</a></li>
+              <li><a href="icon-ion.html">Ion Icons</a></li>
+              <li><a href="icon-budicon.html">Budicon Icons</a></li>
+              <li><a href="elements.html">Elements</a></li>
+              <li><a href="headings.html">Headings</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.container --> 
+    </div>
+    <!--/.nav-collapse --> 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <!--/.navbar -->
+  
+  <div th:fragment="slider" class="rev_slider_wrapper">
+    <div id="slider1" class="rev_slider" data-version="5.0">
+      <ul>
+        <li data-transition="fade"><img src="style/images/art/slider-bg1.jpg" alt="">
+          <div class="tp-caption large" data-x="480" data-hoffset="" data-y="center" data-voffset="-55" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Think unique. Be unique.</div>
+          <div class="tp-caption medium" data-x="480" data-hoffset="" data-y="center" data-voffset="0" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Make a <em>difference</em> using Morello.</div>
+          <div class="tp-caption" data-x="482" data-hoffset="" data-y="center" data-voffset="['65','65','65','90']" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-size: 30px; line-height: 30px;"><a href="https://1.envato.market/j6OzZ" class="btn btn-large">Purchase Now</a></div>
+        </li>
+        <li data-transition="fade"><img src="style/images/art/slider-bg2.jpg" alt="">
+          <div class="tp-caption large light text-center" data-x="center" data-hoffset="" data-y="center" data-voffset="-85" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1300;e:Power2.easeOut;" data-transform_out="s:1300;e:Power3.easeInOut;s:1300;e:Power3.easeInOut;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Bring your ideas to life</div>
+          <div class="tp-caption medium light text-center" data-x="center" data-hoffset="" data-y="center" data-voffset="0" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1300;e:Power2.easeOut;" data-transform_out="s:1300;e:Power3.easeInOut;s:1300;e:Power3.easeInOut;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Experience technology like never before<br>
+            <em>understanding</em> customer needs</div>
+          <div class="tp-caption" data-x="center" data-hoffset="" data-y="center" data-voffset="['100','100','100','120']" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-size: 30px; line-height: 30px;"><a href="#" class="btn btn-large btn-border light">Get in Touch</a></div>
+        </li>
+        <li data-transition="fade"><img src="style/images/dummy.png" style='background-color:#303030' alt="">
+          <div class="tp-caption" data-x="center" data-y="bottom" data-voffset="0" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap; font-size: 50px; line-height: 50px;"><img src="style/images/art/slider-bg3.png" alt=""></div>
+          <div class="tp-caption light large" data-x="center" data-hoffset="" data-y="center" data-voffset="-165" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Flawless. Superb. Outstanding.</div>
+          <div class="tp-caption light medium" data-x="center" data-hoffset="" data-y="center" data-voffset="-100" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="x:50px;opacity:0;s:1000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Create a <em>stunning</em> website with Morello</div>
+        </li>
+        <li data-transition="fade"><img src="style/video/office.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina=""> <!-- LAYERS --> <!-- BACKGROUND VIDEO LAYER -->
+          <div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute" data-videowidth="100%" data-videoheight="100%" data-videomp4="style/video/office.mp4" data-videopreload="preload" data-videoloop="none" data-forcecover="1" data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true" data-dottedoverlay="darkoverlay"></div>
+          <div class="tp-caption large light" data-x="center" data-hoffset="" data-y="center" data-voffset="-35" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">HTML5 video and lots of other media</div>
+          <div class="tp-caption medium light" data-x="center" data-hoffset="" data-y="center" data-voffset="35" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">For better visualization of your company</div>
+        </li>
+      </ul>
+      <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+    <!-- /.rev_slider --> 
+  </div>
+  <!-- /.rev_slider_wrapper -->
+  
+  <div class="light-wrapper">
+    <div class="container inner">
+      <div class="thin">
+        <p class="lead text-center"> <em>Aham Tech Labs </em> is a tech company with specialization in Customized Software development, Web development and App development. Call us today and bring your ideas to life!</p>
+      </div>
+      <!-- /.thin -->
+      <div class="divide10"></div>
+      <div class="row services">
+        <div class="col-sm-6 col-md-4 service wow fadeInUp" data-wow-duration="1s"> <span class="icon icon-s"><i class="budicon-check-2"></i></span>
+          <h4>Customized software development</h4>
+          <p style="text-align: justify;">Our team of experts can help you create customized software solutions. Our tailor made solutions will not only help you solve a problem, but will give your organization a competitive edge.</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-6 col-md-4 service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"> <span class="icon icon-s"><i class="budicon-profile"></i></span>
+          <h4>Web development</h4>
+          <p style="text-align: justify;">With our expertise in various technologies, we can create a wide range of website solutions for you. From creating simple static web pages to complex dynamic websites, our experts have it covered!</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-6 col-md-4 service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s"> <span class="icon icon-s"><i class="budicon-drop"></i></span>
+          <h4>E-commerce solutions</h4>
+          <p style="text-align: justify;">A good e-commerce website should have superior user experience, easy navigation, better functionality, higher responsiveness and much more. We help you create E-commerce solutions that have all this and more!</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-6 col-md-4 service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s"> <span class="icon icon-s"><i class="budicon-shopping-cart"></i></span>
+          <h4>Android App development</h4>
+          <p style="text-align: justify;">A well-developed app says a lot about your organization. Our solutions and our experts are here to help you with the complete app development process.</p>
+        </div>
+        <!--/column -->
+        
+        <div class="col-sm-6 col-md-4 service wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s"> <span class="icon icon-s"><i class="budicon-layout-7"></i></span>
+          <h4>iOS App development</h4>
+          <p style="text-align: justify;">Our iOS experts are highly experienced and have developed various high quality apps. We create apps with efficient usability and a better user experience.</p>
+        </div>
+        <!--/column -->
+        
+        <div class="col-sm-6 col-md-4 service wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s"> <span class="icon icon-s"><i class="budicon-note-3"></i></span>
+          <h4>IT staffing</h4>
+          <p style="text-align: justify;">The hunt for resources for your projects can be a challenge. We help organizations find the right talent for their projects.</p>
+        </div>
+        <!--/column --> 
+      </div>
+      <!--/.row -->
+      
+      <div class="divide70"></div>
+      <div class="section-title">
+        <h2>Our Process</h2>
+      </div>
+      <!-- /.section-title -->
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <figure class="icon-l wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.0s"> <img src="style/images/icons/concept12.svg" style="width: auto; height: 350px;" alt="" /> </figure>
+        </div>
+        <!--/column -->
+        <div class="divide30 hidden-md hidden-lg"></div>
+        <div class="col-md-8">
+          <div class="row process">
+            <div class="row-same-height">
+              <div class="col-sm-12 col-md-6 col-md-height col-sm-height">
+                <div class="content wow fadeIn" data-wow-duration="1s" data-wow-delay="0s"> <span class="icon"><i class="budicon-diamond"></i></span>
+                  <h4>Ideation and documentation</h4>
+                  <p style="text-align: justify;">Before we start a project, we make sure that our experts understand your requirement accurately and then a clearly defined document with measurable milestones and plan of action is created.</p>
+                </div>
+              </div>
+              <!--/column -->
+              <div class="col-sm-12 col-md-6 col-md-height col-sm-height">
+                <div class="content wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"> <span class="icon"><i class="budicon-pie-cart"></i></span>
+                  <h4>Development</h4>
+                  <p style="text-align: justify;">During development, our team keeps you updated on the work progress and milestones. We ensure that we have regular meetings with our client to keep them in the loop about the progress of their projects.</p>
+                </div>
+              </div>
+              <!--/column --> 
+            </div>
+            <!--/.row-same-height -->
+            <div class="row-same-height">
+              <div class="col-sm-12 col-md-6 col-md-height col-sm-height">
+                <div class="content wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s"> <span class="icon"><i class="budicon-brush"></i></span>
+                  <h4>Testing and deployment</h4>
+                  <p style="text-align: justify;">When a project is complete, our experts test it and then a prototype is given to the client for testing. Once the testing is complete and the project is approved, the project gets deployed.</p>
+                </div>
+              </div>
+              <!--/column -->
+              <div class="col-sm-12 col-md-6 col-md-height col-sm-height">
+                <div class="content wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s"> <span class="icon"><i class="budicon-gift"></i></span>
+                  <h4>Maintenance</h4>
+                  <p style="text-align: justify;">We offer 24/7 support after the project is live. We understand that your projects are important to you and so we guarantee quick resolution.</p>
+                </div>
+              </div>
+              <!--/column --> 
+              
+            </div>
+            <!--/.row --> 
+          </div>
+          <!--/.row-same-height --> 
+        </div>
+        <!--/column --> 
+      </div>
+      <!--/.row --> 
+      
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.light-wrapper -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!--     <div class="light-wrapper"> -->
+<!--     <div class="container inner"> -->
+<!--       <div class="row"> -->
+<!--         <div class="col-sm-4"> -->
+<!--           <h3>Our Skyills</h3> -->
+<!--           <p style="text-align: justify;">Our tech expertise is in a wide range of technologies to give you efficient solutions</p> -->
+<!--           <div class="divide10"></div> -->
+<!--           <ul class="progress-list"> -->
+<!--             <li> -->
+<!--               <p>Java <span>80%</span></p> -->
+<!--               <div class="progress plain"> -->
+<!--                 <div class="bar" data-width="80"></div> -->
+<!--               </div> -->
+<!--             </li> -->
+<!--             <li> -->
+<!--               <p>Ruby on Rails  <span>90%</span></p> -->
+<!--               <div class="progress plain"> -->
+<!--                 <div class="bar" data-width="90"></div> -->
+<!--               </div> -->
+<!--             </li> -->
+<!--             <li> -->
+<!--               <p>Python<span>78%</span></p> -->
+<!--               <div class="progress plain"> -->
+<!--                 <div class="bar" data-width="79"></div> -->
+<!--               </div> -->
+<!--             </li> -->
+<!--             <li> -->
+<!--               <p>Node JS  <span>80%</span></p> -->
+<!--               <div class="progress plain"> -->
+<!--                 <div class="bar" data-width="80"></div> -->
+<!--               </div> -->
+<!--             </li> -->
+<!--             <li> -->
+<!--               <p>Android/iOS  <span>85%</span></p> -->
+<!--               <div class="progress plain"> -->
+<!--                 <div class="bar" data-width="85"></div> -->
+<!--               </div> -->
+<!--             </li> -->
+          
+<!--           </ul> -->
+<!--           /.progress-list  -->
+<!--         </div> -->
+<!--         /column -->
+<!--         <div class="col-sm-4"> -->
+<!--           <h3>Why Choose Us?</h3> -->
+<!--           <ul id="tab1" class="nav nav-tabs"> -->
+<!--             <li class="active"><a href="#tab1-1" data-toggle="tab">The thought process:</a></li> -->
+<!-- <!--             <li><a href="#tab1-2" data-toggle="tab">Tabbed</a></li> --> -->
+<!-- <!--             <li><a href="#tab1-3" data-toggle="tab">Content</a></li> --> -->
+<!--           </ul> -->
+<!--           <div id="myTabContent" class="tab-content"> -->
+<!--             <div style="text-align: justify;" class="tab-pane fade in active" id="tab1-1"> -->
+<!--               <p class="circled">We created Aham Tech Labs with one motto in mind – Providing solutions that matter! Our team consists of a combination of young talent along with highly experienced members to maintain a perfect balance of expertise and a new point of view.</p> -->
+<!--               <p>We believe in ‘out of the box’, ‘inside the box’ and ‘let’s try a different box too’ thinking. We are perfectionists who thrive on growth.</p> -->
+<!--               <p>Our team takes pride in completing projects before time and with high efficiency. We start our work days with one question – How can we make this better?</p> -->
+             
+<!--             </div> -->
+<!-- <!--             <div class="tab-pane fade" id="tab1-2"> --> -->
+<!-- <!--               <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Vestibulum id ligula.</p> --> -->
+<!-- <!--               <p>Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p> --> -->
+<!-- <!--             </div> --> -->
+<!-- <!--             <div class="tab-pane fade" id="tab1-3"> --> -->
+<!-- <!--               <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> --> -->
+<!-- <!--               <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p> --> -->
+<!-- <!--             </div> --> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         /column -->
+<!--         <div class="col-sm-4"> -->
+<!--           <h3>Our Newsletter</h3> -->
+<!--           <p>Subscribe to our newsletter to get our latest news and deals delivered right to your inbox!</p> -->
+<!--           <div class="newsletter-wrapper"> -->
+<!--             <div id="mc_embed_signup" class="newsletter-form"> -->
+<!--               <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate=""> -->
+<!--                 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL2" placeholder="Enter email" required=""> -->
+<!--                 real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+<!--                 <div style="position: absolute; left: -5000px;"> -->
+<!--                   <input type="text" name="b_ddc180777a163e0f9f66ee014_056957de28" value=""> -->
+<!--                 </div> -->
+<!--                 <div class="clear"> -->
+<!--                   <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="btn"> -->
+<!--                 </div> -->
+<!--               </form> -->
+<!--             </div> -->
+<!--             /#mc_embed_signup2  -->
+<!--           </div> -->
+<!--           /.newsletter-wrapper -->
+<!--           <div class="divide40"></div> -->
+<!--           <h3>Get in Touch</h3> -->
+<!--           <div class="widget"> -->
+<!--             <p>For more information, please contact us</p> -->
+<!--             <ul class="info"> -->
+<!--               <li style="text-align: justify;"><i class="ion-ios-location"></i> -->
+<!--                 <p>Commercial complex, Life republic by Kolte Patil, Hinjewadi, Pune 57</p> -->
+<!--               </li> -->
+<!--               <li><i class="ion-android-mail"></i> -->
+<!--                 <p><a href="mailto:hello@email.com" class="nocolor">hello@ahamtechlabs.com</a></p> -->
+<!--               </li> -->
+<!--               <li><i class="ion-headphone"></i> -->
+<!--                 <p>+91 9112013252</p> -->
+<!--               </li> -->
+<!--             </ul> -->
+<!--             /.info  -->
+            
+<!--           </div> -->
+<!--           /.widget  -->
+<!--         </div> -->
+<!--         /column  -->
+<!--       </div> -->
+<!--       /.row -->
+      
+<!--       <div class="divide70"></div> -->
+<!--       <div class="thin"> -->
+<!--         <div class="section-title text-center"> -->
+<!--           <h2>Contact Information</h2> -->
+<!--           <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros consectetur.</p> -->
+<!--         </div> -->
+<!--         /.section-title  -->
+<!--       </div> -->
+<!--       /.thin -->
+      
+<!--       <div class="row"> -->
+<!--         <div class="col-md-6 rp25"> -->
+<!--           <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Commercial%20complex,%20Life%20republic%20by%20Kolte%20Patil,%20Hinjewadi,%20Pune%2057&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> -->
+<!--           <div class="divide20"></div> -->
+          
+<!--           .widget  -->
+          
+<!--         </div> -->
+<!--         /column -->
+<!--         <div class="col-md-6 lp25"> -->
+<!--           <div class="form-container"> -->
+<!--             <form action="https://demos.elemisthemes.com/morello/contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate"> -->
+<!--               <div class="row"> -->
+<!--                 <div class="col-sm-6"> -->
+<!--                   <div class="form-field"> -->
+<!--                     <label> -->
+<!--                       <input type="text" name="name" placeholder="Your name" required="required"> -->
+<!--                     </label> -->
+<!--                   </div> -->
+<!--                   /.form-field  -->
+<!--                 </div> -->
+<!--                 /column -->
+<!--                 <div class="col-sm-6"> -->
+<!--                   <div class="form-field"> -->
+<!--                     <label> -->
+<!--                       <input type="email" name="email" placeholder="Your e-mail" required="required"> -->
+<!--                     </label> -->
+<!--                   </div> -->
+<!--                   /.form-field  -->
+<!--                 </div> -->
+<!--                 /column -->
+<!--                 <div class="col-sm-6"> -->
+<!--                   <div class="form-field"> -->
+<!--                     <label> -->
+<!--                       <input type="tel" name="tel" placeholder="Phone"> -->
+<!--                     </label> -->
+<!--                   </div> -->
+<!--                   /.form-field  -->
+<!--                 </div> -->
+<!--                 /column -->
+<!--                 <div class="col-sm-6"> -->
+<!--                   <div class="form-field"> -->
+<!--                     <label class="custom-select"> -->
+<!--                       <select name="department" required="required"> -->
+<!--                         <option value="">Select Department</option> -->
+<!--                         <option value="Sales">Sales</option> -->
+<!--                         <option value="Marketing">Marketing</option> -->
+<!--                         <option value="Support">Customer Support</option> -->
+<!--                         <option value="Other">Other</option> -->
+<!--                       </select> -->
+<!--                       <span>fake select handler</span> </label> -->
+<!--                   </div> -->
+<!--                   /.form-field  -->
+<!--                 </div> -->
+<!--                 /column -->
+                
+<!--                 <div class="col-sm-12"> -->
+<!--                   <textarea name="message" placeholder="Type your message here..." required="required"></textarea> -->
+<!--                   <input style="float: right;" type="submit" class="btn btn-large" value="Submit Message" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!"> -->
+<!--                   <footer class="notification-box"></footer> -->
+<!--                 </div> -->
+<!--                 /column  -->
+                
+<!--               </div> -->
+<!--               /.row -->
+              
+<!--             </form> -->
+<!--             /.vanilla-form  -->
+<!--           </div> -->
+<!--           /.form-container  -->
+<!--         </div> -->
+<!--         /column  -->
+<!--       </div> -->
+<!--       /.row  -->
+<!--     </div> -->
+<!--     /.container  -->
+<!--   </div> -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="inverse-wrapper">
+    <div class="container inner">
+      <div class="section-title">
+        <h2>Our Latest Works</h2>
+      </div>
+      <!-- /.section-title -->
+      <div class="carousel-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+        <div class="owl-posts portfolio-carousel2">
+          <div class="item post">
+            <figure><img src="style/images/art/cp1.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Curabitur Blandit</a></h3>
+              <div class="meta"><span class="category"><a href="#">Business</a>, <a href="#">Works</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure><img src="style/images/art/cp2.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Mollis Euismod Fringilla</a></h3>
+              <div class="meta"><span class="category"><a href="#">News</a>, <a href="#">Corporate</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure><img src="style/images/art/cp3.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Dapibus Quam Ligula</a></h3>
+              <div class="meta"><span class="category"><a href="#">Business</a>, <a href="#">Works</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure><img src="style/images/art/cp4.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Fusce Malesuada Cursus</a></h3>
+              <div class="meta"><span class="category"><a href="#">News</a>, <a href="#">Corporate</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure><img src="style/images/art/cp5.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Vehicula Euismod Mollis</a></h3>
+              <div class="meta"><span class="category"><a href="#">Business</a>, <a href="#">Works</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure><img src="style/images/art/cp6.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Vehicula Justo Elit</a></h3>
+              <div class="meta"><span class="category"><a href="#">News</a>, <a href="#">Corporate</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure><img src="style/images/art/cp7.jpg" alt="" /></figure>
+            <div class="post-content">
+              <h3 class="post-title"><a href="portfolio-post.html">Ultricies Tellus Inceptos</a></h3>
+              <div class="meta"><span class="category"><a href="#">Business</a>, <a href="#">Works</a></span></div>
+              <!-- /.meta --> 
+            </div>
+            <!-- /.post-content --> 
+          </div>
+          <!-- /.post --> 
+        </div>
+        <!-- /.portfolio-carousel --> 
+      </div>
+      <!-- /.carousel-wrapper --> 
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.inverse-wrapper -->
+  
+  <div class="inverse-wrapper color-wrapper">
+    <div class="container inner">
+      <p class="lead text-center bm25">Let's make something <em>great</em> together.</p>
+      <div class="text-center"> <a href="#" class="btn btn-large btn-border fixed-width">View Our Works</a> <a href="#" class="btn btn-large btn-border fixed-width">Get in Touch</a> </div>
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.inverse-wrapper -->
+  
+  <div class="light-wrapper">
+    <div class="container inner">
+      <div class="section-title">
+        <h2>Other Features</h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+      </div>
+      <div class="row text-center border-box">
+        <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+          <div class="box"> <span class="icon"><i class="budicon-network"></i></span>
+            <h4>SEO-Friendly</h4>
+            <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod. Eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus.</p>
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="box"> <span class="icon"><i class="budicon-layout-1"></i></span>
+            <h4>Responsive Layout</h4>
+            <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod. Eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus.</p>
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+          <div class="box"> <span class="icon"><i class="budicon-video"></i></span>
+            <h4>Video Support</h4>
+            <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod. Eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus.</p>
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+          <div class="box"> <span class="icon"><i class="budicon-support"></i></span>
+            <h4>Free Support & Updates</h4>
+            <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod. Eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus.</p>
+          </div>
+        </div>
+        <!--/column --> 
+      </div>
+      <!--/.row --> 
+      
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.light-wrapper -->
+  
+  <div class="parallax inverse-wrapper" data-parallax-img="style/images/art/parallax4.jpg" data-parallax-img-width="1920" data-parallax-img-height="1280">
+    <div class="container inner">
+      <div class="thin">
+        <p class="lead text-center">Example data of our <em>company progress</em></p>
+        <div class="divide10"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="col-sm-3 col-xs-6 lp25 rp25 circle-progress-wrapper">
+            <div class="circle-progress circle first">
+              <h4>New Visitors</h4>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-sm-3 col-xs-6 lp25 rp25 circle-progress-wrapper">
+            <div class="circle-progress circle second">
+              <h4>Social Media</h4>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-sm-3 col-xs-6 lp25 rp25 circle-progress-wrapper">
+            <div class="circle-progress circle third">
+              <h4>Referals</h4>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-sm-3 col-xs-6 lp25 rp25 circle-progress-wrapper">
+            <div class="circle-progress circle fourth">
+              <h4>Search Engines</h4>
+            </div>
+          </div>
+          <!-- /column --> 
+        </div>
+        <!-- /.row --> 
+      </div>
+      <!-- /.thin --> 
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.parallax -->
+  
+  <div class="light-wrapper">
+    <div class="container inner">
+      <div class="section-title">
+        <h2>Featured Blog</h2>
+      </div>
+      <div class="blog list-view featured">
+        <div class="blog-posts row">
+          <div class="col-sm-6">
+            <div class="post">
+              <div class="post-content">
+                <div class="row">
+                  <div class="col-md-5">
+                    <figure> <img src="style/images/art/cb1.jpg" alt="" /></figure>
+                  </div>
+                  <!-- /column -->
+                  <div class="col-md-7">
+                    <div class="meta"><span class="date">14 Oct 2014</span><span class="category"><a href="#">Business</a>, <a href="#">Works</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+                    <h3 class="post-title"><a href="blog-post.html">Curabitur blandit tempus egestas magna egestas eget quam</a></h3>
+                    <a href="blog-post.html" class="more">Read More</a> </div>
+                  <!-- /column --> 
+                  
+                </div>
+                <!-- /.row --> 
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.post --> 
+          </div>
+          <!-- /column -->
+          <div class="col-sm-6">
+            <div class="post">
+              <div class="post-content">
+                <div class="row">
+                  <div class="col-md-5">
+                    <figure> <img src="style/images/art/cb2.jpg" alt="" /></figure>
+                  </div>
+                  <!-- /column -->
+                  <div class="col-md-7">
+                    <div class="meta"><span class="date">12 Nov 2014</span><span class="category"><a href="#">News</a>, <a href="#">Corporate</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+                    <h3 class="post-title"><a href="blog-post.html">Mollis euismod fringilla risus ridiculus nibh aenean pharetra ullamcorper</a></h3>
+                    <a href="blog-post.html" class="more">Read More</a> </div>
+                  <!-- /column --> 
+                </div>
+                <!-- /.row --> 
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.post --> 
+          </div>
+          <!-- /column -->
+          <div class="col-sm-6">
+            <div class="post">
+              <div class="post-content">
+                <div class="row">
+                  <div class="col-md-5">
+                    <figure> <img src="style/images/art/cb3.jpg" alt="" /></figure>
+                  </div>
+                  <!-- /column -->
+                  <div class="col-md-7">
+                    <div class="meta"><span class="date">23 Dec 2014</span><span class="category"><a href="#">Business</a>, <a href="#">Works</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+                    <h3 class="post-title"><a href="blog-post.html">Dapibus quam ligula adipiscing vestibulum</a></h3>
+                    <a href="blog-post.html" class="more">Read More</a> </div>
+                  <!-- /column --> 
+                </div>
+                <!-- /.row --> 
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.post --> 
+          </div>
+          <!-- /column -->
+          <div class="col-sm-6">
+            <div class="post">
+              <div class="post-content">
+                <div class="row">
+                  <div class="col-md-5">
+                    <figure> <img src="style/images/art/cb4.jpg" alt="" /></figure>
+                  </div>
+                  <!-- /column -->
+                  <div class="col-md-7">
+                    <div class="meta"><span class="date">14 Oct 2014</span><span class="category"><a href="#">News</a>, <a href="#">Corporate</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+                    <h3 class="post-title"><a href="blog-post.html">Fusce malesuada cursus sit condimentum</a></h3>
+                    <a href="blog-post.html" class="more">Read More</a> </div>
+                  <!-- /column --> 
+                </div>
+                <!-- /.row --> 
+              </div>
+              <!-- /.post-content --> 
+            </div>
+            <!-- /.post --> 
+          </div>
+          <!-- /column --> 
+          
+        </div>
+        <!-- /.blog-posts --> 
+        
+      </div>
+      <!-- /.blog --> 
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.light-wrapper --> 
+  
+</div>
+<!-- /.content-wrapper -->
+
+<footer th:fragment="footer"  class="footer inverse-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="widget"> <a href="#"><img src="/style/images/logo2.png"   style="  width:90%; height: auto; background-color: black;"  alt="" /></a>
+          <div class="divide20"></div>
+          <p>is a responsive site template with a clean and professional design. A great solution for your business, portfolio, blog or any other purpose website.</p>
+         <p>© 2021 <a href="#">Aham Tech Labs</a> All rights reserved.</p>
+        </div>
+        <!-- /.widget --> 
+      </div>
+      <!-- /column -->
+      
+     
+      <!-- /column -->
+      
+      <div class="col-sm-4">
+        <div class="widget">
+          <h4 class="widget-title">Get in Touch</h4>
+          <p>For more information, please contact us,</p>
+          <ul style="text-align: justify;" class="info">
+            <li><i class="ion-ios-location"></i>
+              <p>Commercial complex, Life republic by Kolte Patil,<br>
+               Hinjewadi, Pune 57 <br>
+              </p>
+            </li>
+            <li><i class="ion-android-mail"></i>
+              <p><a href="mailto:hello@email.com" class="email-link">hello@ahamtechlabs.com</a></p>
+            </li>
+            <li><i class="ion-headphone"></i>
+              <p>+91 9112013252</p>
+            </li>
+          </ul>
+          <!-- /.info --> 
+          
+        </div>
+        <!-- /.widget --> 
+        
+      </div>
+      <!-- /column -->
+      <div class="col-sm-1"></div>
+      <div class="col-sm-3">
+        <div class="widget">
+          <h4 class="widget-title">About Us</h4>
+          <ul class="list-unstyled">
+            <li> <a href="#">Contact Us</a> </li>
+            <li> <a href="#">Terms of Use</a> </li>
+            <li> <a href="#">Privacy Policy</a> </li>
+          </ul>
+        </div>
+        <!-- /.widget -->
+        <div class="widget">
+          <h4 class="widget-title">Elsewhere</h4>
+          <ul class="social">
+            <li> <a href="#"><i class="ion-social-rss"></i></a> </li>
+            <li> <a href="#"><i class="ion-social-facebook"></i></a> </li>
+            <li> <a href="#"><i class="ion-social-twitter"></i></a> </li>
+            <li> <a href="#"><i class="ion-social-instagram"></i></a> </li>
+            <li> <a href="#"><i class="ion-social-vimeo"></i></a> </li>
+            <li> <a href="#"><i class="ion-social-whatsapp"></i></a> </li>
+          </ul>
+        </div>
+        <!-- /.widget --> 
+        
+      </div>
+      <!-- /column --> 
+      
+    </div>
+    <!-- /.row --> 
+    
+<!--      <div style="text-align: center;" class="row"> -->
+<!--       <p>© 2021 <a href="#">Aham Tech Labs</a> All rights reserved.</p> -->
+<!--      </div> -->
+    
+  </div>
+  <!-- .container --> 
+  
+
+<script type="text/javascript" src="style/js/jquery.min.js"></script> 
+<script type="text/javascript" src="style/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="style/revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script> 
+<script type="text/javascript" src="style/revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script> 
+<script type="text/javascript" src="style/revolution/js/extensions/revolution.extension.slideanims.min.js"></script> 
+<script type="text/javascript" src="style/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script type="text/javascript" src="style/revolution/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script type="text/javascript" src="style/revolution/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script type="text/javascript" src="style/revolution/js/extensions/revolution.extension.video.min.js"></script> 
+<script type="text/javascript" src="style/js/plugins.js"></script> 
+<script type="text/javascript" src="style/js/scripts.js"></script>
+<!-- DEMO ONLY -->
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/blue.css" title="morelloblue-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/brown.css" title="morellobrown-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/green.css" title="morellogreen-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/lime.css" title="morellolime-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/navy.css" title="morellonavy-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/orange.css" title="morelloorange-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/pink.css" title="morellopink-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/purple.css" title="morellopurple-color" media="screen" />
+<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="switcher/red.css" title="morellored-color" media="screen" />
+<script type="text/javascript" src="switcher/switchstylesheet.js"></script>
+</footer>
+<!-- /footer --> 
+<script type="text/javascript">
+$(document).ready(function(){ 
+	$(".changecolor").switchstylesheet( { seperator:"color"} );
+});
+</script>
+</body>
+
+<!-- Mirrored from demos.elemisthemes.com/morello/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Nov 2021 08:46:21 GMT -->
+</html>

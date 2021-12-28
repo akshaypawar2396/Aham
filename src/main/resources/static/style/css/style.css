@@ -457,7 +457,7 @@ h2.post-title {
     font-weight: 500;
 }
 .more:after {
-    content: "→";
+    content: "â†’";
     padding-left: 5px;
 }
 .meta.tags {
@@ -480,7 +480,7 @@ h2.post-title {
     background: #f9f9f9
 }
 .inverse-wrapper {
-    background: #303030;
+    background: #000;
     color: #d5d5d5 !important;
 }
 .inverse-wrapper.color-wrapper {
@@ -577,7 +577,7 @@ ul.circled {
     list-style: none;
 }
 ul.circled li:before {
-    content: '●';
+    content: 'â—�';
     margin-right: 10px;
     font-weight: normal;
     vertical-align: top;
@@ -957,7 +957,7 @@ blockquote .small {
     margin: 0 !important;
     vertical-align: middle;
     display: table-cell;
-    width: 100%;
+   
 }
 .navbar .nav-bars-wrapper {
     display: none
@@ -981,7 +981,7 @@ blockquote .small {
     font-weight: 600;
     transition: all 150ms ease-in;
     line-height: 1;
-    color: #303030 !important;
+    color: #f5eff2  !important;
     position: relative;
 }
 .inverse-wrapper .navbar-nav > li > a {
@@ -1147,7 +1147,7 @@ blockquote .small {
     box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4);
 }
 .navbar.extended.fixed .navbar-collapse {
-    background: transparent
+    background: #0e0e0e;
 }
 .navbar.narrow.fixed,
 .navbar.classic.fixed.inverse-wrapper {
@@ -2757,7 +2757,7 @@ input[type="color"]:focus,
     border: 2px solid rgba(0,0,0,0.15);
 }
 textarea {
-    height: 100%;
+   
     padding: 8px 13px;
     line-height: 22px;
     margin-bottom: 20px;
@@ -3648,7 +3648,7 @@ video::-webkit-media-controls {
 	.navbar.extended .navbar-header {
 	    width: 100%;
 	    height: auto;
-	    padding: 30px 0;
+
 	}
 	.navbar.extended .navbar-collapse {
 	    float: none !important;
@@ -3697,7 +3697,7 @@ video::-webkit-media-controls {
 	    padding-right: 15px;
 	}
 	.navbar.extended .navbar-collapse {
-	    background: #f3f3f3
+	    background: #0e0e0e;
 	}
 	.navbar.extended:not(.centered) .navbar-collapse .container,
 	.navbar.classic .container {
@@ -3743,6 +3743,12 @@ video::-webkit-media-controls {
 	    width: 100%;
 	    padding: 0;
 	}
+	
+
+	
+	
+	
+	
 	.navbar .navbar-header .navbar-brand {
 	    width: 100%
 	}
